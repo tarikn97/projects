@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal windows</title>
+  </head>
+  <body>
+    <button class="show-modal">Modal I</button>
+    <button class="show-modal">Modal II</button>
+    <button class="show-modal">Modal III</button>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>Welcome</h1>
+      <p>
+        Welcome to my little project called "Modal window". This project was
+        created for the purpose of presenting the opening of so-called "Modal
+        windows" at the click of a button, which blurs the background around the
+        open window. The window can be closed by clicking the X button, clicking
+        the background around the window or clicking the "Esc" button on the
+        keyboard.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
